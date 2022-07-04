@@ -1,20 +1,17 @@
-import "./App.css"
-import News from './News'
+import './App.css'
 
 function App(){
-    return(
-        <div className="container1">
-        <p className='text'>
-           Mais lidas
-        </p>  
-        <News />
 
-        <div className='text'>
-            Mais lidas
-        </div>
-        <News/>  
-
-       </div>
-   )
+return(   
+    <div>
+        <ol className="lista">
+              <li>Tools</li>
+              <li>Pricing</li>
+              <li>Blog</li>
+              <li>About</li>
+              <li>Customers</li>
+            </ol>
+    </div>
+)
 }
 export default App;
